@@ -20,9 +20,9 @@ const [flags,setFlags] =useState("Home")
     {flags === "Quit" &&  <Quit />}
  </flagsContext.Provider>
     
-     <button onClick={()=>{
+     <button  onClick={()=>{
        setFlags("Main")
-       
+          
      }} className="start-button">Start</button>
     </div>
   );
