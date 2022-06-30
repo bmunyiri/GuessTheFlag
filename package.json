@@ -1,7 +1,7 @@
 {
-  "name": "guess-the-flag",
+  "name": "guess-the-flags",
   "version": "1.0.0",
-  "description": "",
+  "description": "A game to guess which country displayed belongs to.",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {

@@ -7,8 +7,8 @@
  font-family: 'Roboto', sans-serif;
   text-align: center;
   background-color: #ffa5;
-  width:500px;
-  height:500px;
+  width:400px;
+  height:600px;
   margin:40px;
  background-position: center;
  display:flex;
@@ -23,9 +23,20 @@
      font-size: 24px;
 }
 .main-button{
-    position: relative;
+
       margin-top:100px;
         font-size: 24px;
+        align:center;
+      
+}
+
+.home-button{
+     margin-top:90%;
+        font-size: 24px;
+          cursor: pointer;
+          align:center;
+             right:50%;
+             display:block; position: center; margin:auto
 }
 
 #Options {
@@ -42,4 +53,20 @@ padding:20px;
   margin:10px;
 padding:10px; 
 font-weight: bold;
+  cursor: pointer;
+}
+
+.flag{
+  height: 60%;
+  width: 70%;
+}
+
+.World-Map{
+display:block; 
+position: center; 
+margin:auto
+   height: 60%;
+  width: 60%;
+  margin:40px;
+
 }
