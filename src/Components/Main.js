@@ -43,8 +43,8 @@ setCurrentFlag(currentFlag +1)
     <button onClick={()=>{
        setCurrentAnswer("d")
           }} >{FlagsInfo[currentFlag].optionD}</button>
-      
-      <button  onClick={MoveForward} className="home-button">Next Flag</button>
+      { (FlagsInfo[currentFlag] === FlagsInfo.length - 1) ? <button>End GuessWork</button> : 
+      <button  onClick={MoveForward} className="home-button">Next Flag</button>}
     </div>
  
     </div>
