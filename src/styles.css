@@ -8,7 +8,7 @@
   text-align: center;
   background-color: #ffa5;
   width:400px;
-  height:800px;
+  height:600px;
   margin:40px;
  background-position: center;
  display:flex;
@@ -18,9 +18,14 @@
 }
 .start-button{
     position: relative;
-      margin-top:350px;
+      margin-top:60%;
     margin-bottom:50px;
      font-size: 24px;
+}
+.end-button{
+    position: center;
+      margin-top:10%;
+        font-size: 18px;
 }
 .main-button{
 
@@ -31,8 +36,8 @@
 }
 
 .home-button{
-     margin-top:90%;
-        font-size: 24px;
+     
+        font-size: 18px;
           cursor: pointer;
           align:center;
              right:50%;
@@ -57,16 +62,17 @@ font-weight: bold;
 }
 
 .flag{
-  height: 60%;
-  width: 70%;
+  height: 40%;
+  width: 60%;
 }
 
 .World-Map{
 display:block; 
 position: center; 
 margin:auto
-   height: 60%;
+  height: 50%;
   width: 60%;
-  margin:40px;
+  margin-bottom:0px;
+  margin-top:20%;
 
 }
